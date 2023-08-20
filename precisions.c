@@ -6,7 +6,7 @@
  * @i: Every List of argument that is printed
  * @list: The list of all the arguments
  *
- * Return: for the Precision
+ * Return: Precision
  */
 int get_precision(const char *format, int *i, va_list list)
 {
