@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- * handle_print - Prints an argument based on its type
- * @fmt: Formatted string in which to print the arguments.
- * @list: List of arguments to be printed.
- * @ind: ind.
- * @buffer: Buffer array to handle print.
- * @flags: Calculates active flags
- * @width: get width.
- * @precision: Precision specification
- * @size: Size specifier
- * Return: 1 or 2;
+ * handle_print - Function that Prints an argument based on type.
+ * @fmt: A Format string to which can print arguments
+ * @list: All List of arguments that are printed out
+ * @ind: index int.
+ * @buffer: The buffer array to handle print.
+ * @flags: Calculate all the active flags.
+ * @width: Calculates for width
+ * @precision: The Precision for specification.
+ * @size: All the Size specifiers.
+ * Return: the int 1 or 2;
  */
 int handle_print(const char *fmt, int *ind, va_list list, char buffer[],
 	int flags, int width, int precision, int size)
