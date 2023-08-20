@@ -3,14 +3,14 @@
 /************************* PRINT CHAR *************************/
 
 /**
- * print_char - Prints a char
- * @types: List a of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: Width
- * @precision: Precision specification
- * @size: Size specifier
- * Return: Number of chars printed
+ * print_char - Prints all of characters.
+ * @types: The List to the arguments.
+ * @buffer: A Buffer array to which handles print.
+ * @flags:  To Calculate the active flags.
+ * @width: for the Width.
+ * @precision: for the Precision specification.
+ * @size: The Size specifier.
+ * Return: No of characters to which printed.
  */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -21,14 +21,14 @@ int print_char(va_list types, char buffer[],
 }
 /************************* PRINT A STRING *************************/
 /**
- * print_string - Prints a string
- * @types: List a of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width.
+ * print_string - Prints strings as description says 
+ * @types: Lists all array of arguments.
+ * @buffer: Buffer array to handle print.
+ * @flags:  Calculates for active flags.
+ * @width: brings up width
  * @precision: Precision specification
- * @size: Size specifier
- * Return: Number of chars printed
+ * @size: for the Size specifier
+ * Return: No of character that prints.
  */
 int print_string(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -76,14 +76,14 @@ int print_string(va_list types, char buffer[],
 }
 /************************* PRINT PERCENT SIGN *************************/
 /**
- * print_percent - Prints a percent sign
- * @types: Lista of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width.
- * @precision: Precision specification
- * @size: Size specifier
- * Return: Number of chars printed
+ * print_percent - Prints the percent symbol only.
+ * @types: The Listing of arguments.
+ * @buffer: The Buffer arr to handle print
+ * @flags:  For Calculating active flags.
+ * @width: bring up the width.
+ * @precision: for the Precision specification
+ * @size: A Specifier of Size
+ * Return: No. of characters that prints
  */
 int print_percent(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -99,9 +99,9 @@ int print_percent(va_list types, char buffer[],
 
 /************************* PRINT INT *************************/
 /**
- * print_int - Print int
- * @types: Lista of arguments
- * @buffer: Buffer array to handle print
+ * print_int - Print the integer.
+ * @types: for Listin of argument.
+ * @buffer: Buffer array which does handles print.
  * @flags:  Calculates active flags
  * @width: get width.
  * @precision: Precision specification
@@ -143,14 +143,14 @@ int print_int(va_list types, char buffer[],
 
 /************************* PRINT BINARY *************************/
 /**
- * print_binary - Prints an unsigned number
- * @types: Lista of arguments
+ * print_binary - Print unsigned no.
+ * @types: Lists arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
- * @width: get width.
- * @precision: Precision specification
- * @size: Size specifier
- * Return: Numbers of char printed.
+ * @width: bring up width.
+ * @precision: for Specifier Precision
+ * @size: The Size specifier
+ * Return: No. of character printed.
  */
 int print_binary(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
