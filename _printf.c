@@ -46,7 +46,7 @@ int _printf(const char *format, ...)
 			++a;
 			printed = handle_print(format, &a, list, buffer,
 				flags, width, precision, size);
-                        if (printed == -1)
+			if (printed == -1)
 
 				return (-1);
 			printed_chars += printed;
